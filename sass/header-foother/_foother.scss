@@ -1,7 +1,25 @@
 .footsec {
     background-color: burlywood;
+    /* height: 100px; */
 
 }
 .fingers {
     background-color: darkcyan;
+    border-top: 1px solid $linebrake;
+    /* height: 100%; */
+    text-align: center;
+}
+
+.fingers__list{
+    // list-style: none;
+    
+}
+.fingers__list-h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: normal;
+}
+.fingers__list--end-items {
+    margin-top: 15px;
 }

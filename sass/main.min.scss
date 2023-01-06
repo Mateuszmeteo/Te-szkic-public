@@ -1,9 +1,10 @@
-@import "/sass/utils/vars";
 
-@import "/sass/header-foother/header";
-@import "/sass/header-foother/foother";
+@import "./utils/vars";
 
-@import "/sass/components/index-sec1";
+@import "./header-foother/header";
+@import "./header-foother/foother";
+
+@import "./components/index-sec1";
 
 
 

@@ -1,0 +1,15 @@
+.backdrop {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0 0 0/ .2 );
+    transition: transform 0.25s;
+    display: flex;
+
+}
+.is-hidden {
+    /* display: none; */
+    transform: translateX(-100%);
+}
