@@ -53,11 +53,14 @@
     text-align: right;
     margin-right: 20px;
     
-
-
 }
 
-
+@media screen and (min-width: 480px) {
+    .headdiv__menu {
+        display: none;
+    }
+    
+}
 
 
 

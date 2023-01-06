@@ -1,10 +1,20 @@
 .container {
   background-color: mediumspringgreen;
-  max-inline-size: 450px;
+  max-inline-size: 480px;
   /* height: 100%; */
   margin: 0 15px;
 }
 
+@media screen and (min-width: 768px) {
+  .container {
+    max-inline-size: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-inline-size: 1200px;
+  }
+}
 ul {
   list-style: none;
   padding: 0;
@@ -68,6 +78,11 @@ a {
   margin-right: 20px;
 }
 
+@media screen and (min-width: 480px) {
+  .headdiv__menu {
+    display: none;
+  }
+}
 .footsec {
   background-color: burlywood;
   /* height: 100px; */
@@ -83,6 +98,13 @@ a {
 .fingers__list-h4 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
+  font-weight: 200;
+  line-height: normal;
+}
+
+.fingers__list-h5 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
   font-weight: 200;
   line-height: normal;
 }

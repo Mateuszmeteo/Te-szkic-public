@@ -1,9 +1,20 @@
 .container {
     background-color:mediumspringgreen;
-    max-inline-size: 450px;
+    // max-inline-size: 100%;
+    max-inline-size: 480px;
     /* height: 100%; */
     margin: 0 15px;
 
+}
+@media screen and (min-width:768px) {
+    .container {
+        max-inline-size: 768px;
+    }
+}
+@media screen and (min-width:1200px) {
+    .container {
+        max-inline-size: 1200px;
+    }
 }
 ul {
     list-style: none;
@@ -11,8 +22,11 @@ ul {
 }
 a {
     text-decoration: none;
+    
 }
 
 
 
 $linebrake: #252525;
+
+$verbena: Verdana, Geneva, Tahoma, sans-serif;

@@ -15,8 +15,14 @@
     
 }
 .fingers__list-h4 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $verbena;
     font-size: 14px;
+    font-weight: 200;
+    line-height: normal;
+}
+.fingers__list-h5 {
+    font-family: $verbena;
+    font-size: 10px;
     font-weight: 200;
     line-height: normal;
 }
